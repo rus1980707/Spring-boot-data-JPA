@@ -24,4 +24,6 @@
 </file>
 <file name="D:\java\Spring-boot-data-JPA\src\main\resources\liquibase.properties">
 </file>
+<file name="D:\java\Spring-boot-data-JPA\src\test\resources\application-test.properties">
+</file>
 </checkstyle>
