@@ -14,14 +14,14 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import web.intro.dto.BookDto;
 import web.intro.dto.CreateBookRequestDto;
-import web.intro.service.BookService;
+import web.intro.service.BookServiceImpl;
 
 @RestController
 @RequestMapping("/books")
 @RequiredArgsConstructor
 public class BookController {
 
-    private final BookService bookService;
+    private final BookServiceImpl bookService;
 
     @GetMapping
     public List<BookDto> getAll() {

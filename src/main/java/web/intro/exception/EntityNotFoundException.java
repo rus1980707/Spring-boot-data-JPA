@@ -2,7 +2,7 @@ package web.intro.exception;
 
 public class EntityNotFoundException extends RuntimeException {
 
-    public EntityNotFoundException(final String message) {
+    public EntityNotFoundException(String message) {
         super(message);
     }
 }
