@@ -1,4 +1,4 @@
-package web.intro;
+package web.intro.exception;
 
 public class EntityNotFoundException extends RuntimeException {
 
