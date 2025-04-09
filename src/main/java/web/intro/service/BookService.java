@@ -1,6 +1,5 @@
 package web.intro.service;
 
-import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import web.intro.dto.BookDto;
@@ -9,6 +8,8 @@ import web.intro.exception.EntityNotFoundException;
 import web.intro.mapper.BookMapper;
 import web.intro.model.Book;
 import web.intro.repository.BookRepository;
+
+import java.util.List;
 
 @Service
 @RequiredArgsConstructor
@@ -25,8 +26,7 @@ public class BookService {
 
     public BookDto getBookById(Long id) {
         return bookMapper.toDto(bookRepository.findById(id)
-                .orElseThrow(() -> new
-                        EntityNotFoundException("Book by id not found")));
+                .orElseThrow(() -> new EntityNotFoundException("Book by id not found")));
     }
 
     public BookDto createBook(CreateBookRequestDto bookDto) {
@@ -36,8 +36,7 @@ public class BookService {
 
     public BookDto updateBook(Long id, CreateBookRequestDto bookDto) {
         Book currentBook = bookRepository.findById(id)
-                .orElseThrow(() ->
-                        new EntityNotFoundException("Book by id not found"));
+                .orElseThrow(() -> new EntityNotFoundException("Book by id not found"));
         bookMapper.updateBookDto(bookDto, currentBook);
 
         currentBook = bookRepository.save(currentBook);
