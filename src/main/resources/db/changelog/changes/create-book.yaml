@@ -9,6 +9,7 @@ databaseChangeLog:
               - column:
                   name: id
                   type: bigint
+                  autoIncrement: true
                   constraints:
                     primaryKey: true
                     nullable: false
@@ -20,18 +21,23 @@ databaseChangeLog:
               - column:
                   name: author
                   type: varchar(255)
+                  constraints:
+                    nullable: false
               - column:
                   name: isbn
-                  type: varchar(255)
+                  type: varchar(20)
+                  constraints:
+                    nullable: false
+                    unique: true
               - column:
                   name: price
                   type: decimal(10,2)
               - column:
                   name: description
-                  type: text
+                  type: varchar(200)
               - column:
                   name: cover_image
-                  type: varchar(255)
+                  type: varchar(200)
               - column:
                   name: deleted
                   type: boolean

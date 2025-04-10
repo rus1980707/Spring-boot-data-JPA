@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="9.3">
-<file name="D:\java\Spring-boot-data-JPA\src\main\java\web\intro\controller\BookController.java">
-</file>
-<file name="D:\java\Spring-boot-data-JPA\src\main\java\web\intro\dto\BookDto.java">
-</file>
-<file name="D:\java\Spring-boot-data-JPA\src\main\java\web\intro\dto\CreateBookRequestDto.java">
-</file>
-<file name="D:\java\Spring-boot-data-JPA\src\main\java\web\intro\exception\EntityNotFoundException.java">
-</file>
-<file name="D:\java\Spring-boot-data-JPA\src\main\java\web\intro\mapper\BookMapper.java">
-</file>
 <file name="D:\java\Spring-boot-data-JPA\src\main\java\web\intro\model\Book.java">
 </file>
-<file name="D:\java\Spring-boot-data-JPA\src\main\java\web\intro\repository\BookRepository.java">
-</file>
-<file name="D:\java\Spring-boot-data-JPA\src\main\java\web\intro\service\BookService.java">
-</file>
-<file name="D:\java\Spring-boot-data-JPA\src\main\java\web\intro\service\BookServiceImpl.java">
-</file>
-<file name="D:\java\Spring-boot-data-JPA\src\main\java\web\intro\WebIntroApplication.java">
-</file>
 <file name="D:\java\Spring-boot-data-JPA\target\generated-sources\annotations\web\intro\mapper\BookMapperImpl.java">
-</file>
-<file name="D:\java\Spring-boot-data-JPA\src\main\resources\application.properties">
-</file>
-<file name="D:\java\Spring-boot-data-JPA\src\main\resources\liquibase.properties">
-</file>
-<file name="D:\java\Spring-boot-data-JPA\src\test\resources\application-test.properties">
 </file>
 </checkstyle>
