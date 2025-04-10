@@ -39,7 +39,7 @@ databaseChangeLog:
                   name: cover_image
                   type: varchar(200)
               - column:
-                  name: deleted
+                  name: is_deleted
                   type: boolean
                   defaultValue: false
                   constraints:
